@@ -1,0 +1,25 @@
+- Class: meta
+  Course: VisManDados
+  Lesson: Aula1
+  Author: Marina Scalon
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.5
+
+- Class: text
+  Output: Bem vindos ao curso de Visualizacao e Manipulacao de Dados no R! Infelizmente o swirl nao permite acentuacao, entao peco que ignorem esses erros...
+  
+- Class: text
+  Output: Novidade pra vc? Basta digitar bye() para sair, skip() para pular alguma pergunta, play() para usar o console e experimentar sem a interferencia do programa e info() para mostrar um menu de ajuda.
+  
+- Class: text
+  Output: Em caso de alguma duvida e nao conseguir prosseguir com a Aula 1, entre em contato no forum de discussao criado ou por email particular lembrando que essa sera uma experiencia nova pra todos nos! =)
+  
+- Class: text
+  Output: Vamos começar testando os tipos de perguntas e respostas que esse programa permite para todos estarmos mais familiarizados:
+  
+- Class: cmd_question
+  Output: Tipo comando: voces terao que digitar aqui alguma operacao que vai ser pedida. Digite 2+2
+  CorrectAnswer: 2 + 2
+  AnswerTests: omnitest(correctExpr='2 + 2')
+  Hint: Apenas digite 2 + 2 e aperte enter.
